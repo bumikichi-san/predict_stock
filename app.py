@@ -31,7 +31,7 @@ link = 'https://search.sbisec.co.jp/v2/popwin/info/stock/pop6040_usequity_list.h
 st.markdown(link)
 st.write('ティッカーシンボルについては上のリンク（SBI証券）をご参照ください。')
 
-try:-+
+try:
 
     df_stock = pandas_datareader.data.DataReader(stock_name, 'yahoo', '2021-01-01')
 
